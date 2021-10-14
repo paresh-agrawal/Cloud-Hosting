@@ -443,3 +443,15 @@ a {
     font-size: 1.6rem;
   }
 }
+
+/* Grid */
+
+.grid {
+  display: grid;
+}
+
+@media screen and (min-width: 768px) {
+  .grid--cols-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
